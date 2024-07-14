@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    *{
+      padding: 0;
+      margin: 0;
+    }
+body{
+      background-image: url(assets/images/favicon-32x32.png);
+      height: 100vh;
+      display: flex;
+      justify-content:space-evenly ;
+      align-items: center;
+      text-align: center;
+      background-position: center;
+    
+}
+.main-div{
+  width: 1100px;
+  height: 500px;
+  color:hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.gray-div{
+  display: flex;
+ background-color: hsl(0, 0%, 12%);
+ width: 250px;
+ height: 370px;
+ border-radius: 10px;
+ align-items:center;
+ justify-content: space-evenly;
+ flex-direction: column;
+
+
+}
+.image-div{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+ 
+}
+img{
+  border-radius: 100%;
+ height: 60px;
+ width: 60px;
+ 
+ 
+}
+.h-div{
+  font-size: medium;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  font-size: 10px;
+  flex-direction: column;
+
+ 
+}
+.main-btn{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+  font-size: 12px;
+ 
+}
+
+.main-btn a{
+  text-decoration: none;
+  background:  hsl(0, 0%, 20%);
+  padding: 5px;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+
+}
+h6{
+  color: hsl(75, 94%, 57%);
+  padding-top: 5%;
+  font-size: 11px;
+}
+p{
+  padding-top: 13%;
+  font-size: 11px;
+}
+
+
+@media screen and (max-width: 375px)
+ {
+  .gray-div{
+    width: 250px;
+    height: 450px;
+  }
+  img{
+
+
+    margin-top: -22%;
+    height: 70px;
+    width: 70px;
+}
+
+h1{
+ margin-top: 10%;
+}
+.main-btn{
+  width: 210px;
+ 
+}
+.main-btn a{
+  display: flex;
+  height: 30px;
+  gap: 24px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+}
+
+  </style>
+</head>
+
+<body>
+
+<div class="main-div">
+
+  <div class="gray-div">
+
+    <div class="h-div">
+
+      <div class="image-div">
+        <img src="assets/images/avatar-jessica.jpeg">
+      </div>
+
+      <h1> Jessica Randall</h1>
+     <h6> London, United Kingdom</h6>
+     <p> "Front-end developer and avid reader."</p>
+    </div>
+
+  
+
+       <div class="main-btn">
+       <a href="#" class="g-div">GitHub</a> 
+        <a href="#" class="f-div">Frontend Mentor</a> 
+        <a href="#" class="l-div">LinkedIn</a> 
+      <a href="#" class="t-div">Twitter</a> 
+        <a href="#" class="i">Instagram</a> 
+       </div>
+       </div>
+    
+      </div>
+   
+  
+
+</body>
+</html>
